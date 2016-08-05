@@ -357,7 +357,7 @@ int main(void)
 			HAL_TIM_Base_Stop(&htim6);
 		}
 		if(state == monitor){
-			sprintf(myMSG.info,"I1   I2   T1    T1               \n");
+			sprintf(myMSG.info,"I1   I2   T1    T2               \n");
 			SENDMSG(myMSG.info)
 			HAL_TIM_Base_Start(&htim6);
 			HAL_TIM_Base_Start_IT(&htim6);

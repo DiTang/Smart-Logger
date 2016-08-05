@@ -387,17 +387,18 @@ ARM Macro Assembler    Page 6
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
 work --depend=smartlogger\startup_stm32l053xx.d -osmartlogger\startup_stm32l053
-xx.o -I"C:\Users\tangd\Documents\Smart Logger\MDK-ARM\RTE" -IC:\Keil_v5\ARM\PAC
+xx.o -I"C:\Users\tangd\Documents\Code Repository\Smart Logger\MDK-ARM\RTE" -IC:
 
 
 
 ARM Macro Assembler    Page 7 
 
 
-K\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\
-Device\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --pr
-edefine="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefine="ST
-M32L053xx SETA 1" --list=startup_stm32l053xx.lst startup_stm32l053xx.s
+\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM3
+2L0xx_DFP\1.6.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__MICRO
+LIB SETA 1" --predefine="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1"
+ --predefine="STM32L053xx SETA 1" --list=startup_stm32l053xx.lst startup_stm32l
+053xx.s
 
 
 
